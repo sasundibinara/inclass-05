@@ -40,8 +40,8 @@ class ProfileScreen extends StatefulWidget {
 
 class _ProfileScreenState extends State<ProfileScreen> {
   final ImagePicker _imagePicker = ImagePicker();
-  final String _name = 'Diluka';
-  final String _email = 'diluka.w@nsbm.ac.lk';
+  final String _name = 'Sasundi Binara';
+  final String _email = 'sasundi.b@nsbm.ac.lk';
   Uint8List? _profileImageBytes;
   int _points = 0;
 

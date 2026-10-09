@@ -16,8 +16,8 @@ void main() {
     await tester.pumpWidget(const ProfileApp());
 
     expect(find.text('My Profile'), findsOneWidget);
-    expect(find.text('Diluka'), findsOneWidget);
-    expect(find.text('diluka.w@nsbm.ac.lk'), findsOneWidget);
+    expect(find.text('Sasundi Binara'), findsOneWidget);
+    expect(find.text('sasundi.b@nsbm.ac.lk'), findsOneWidget);
     expect(find.byTooltip('Choose profile photo'), findsOneWidget);
     expect(find.text('0'), findsOneWidget);
     expect(find.text('1'), findsNothing);
